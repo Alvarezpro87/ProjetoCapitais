@@ -2,12 +2,14 @@ const express = require('express');
 const mysql = require('mysql');
 const app = express();
 
+require('dotenv').config();
+
 // Conexão com o MySQL
 const connection = mysql.createConnection({
   host: 'db',
   user: 'root',
-  password: 'senha123',
-  database: 'capitaisDoBrasil'
+  password: process.env.MYSQL_ROOT_PASSWORD,
+  database: process.env.MYSQL_DATABASE
 });
 
 // Rota para buscar capitais

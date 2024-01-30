@@ -4,10 +4,11 @@ services:
   db:
     image: mysql:5.7
     environment:
-      MYSQL_ROOT_PASSWORD: senha123
-      MYSQL_DATABASE: capitaisDoBrasil
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+      MYSQL_DATABASE: ${MYSQL_DATABASE}
     volumes:
       - db_data:/var/lib/mysql
+      - ./MySQL:/docker-entrypoint-initdb.d
     ports:
       - "3306:3306"
 

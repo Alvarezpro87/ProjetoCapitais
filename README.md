@@ -1,4 +1,4 @@
-Este projeto envolve a criação de um ambient de contêineres onde irá listar os estados e as capitais do Brasil utilizando:
+Este projeto envolve a criação de um ambiente de contêineres onde irá listar os estados e as capitais do Brasil utilizando:
 
 UBUNTU: 22.04.3 LTS
 

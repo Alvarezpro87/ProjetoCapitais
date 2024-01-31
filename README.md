@@ -12,7 +12,7 @@ Este projeto é uma aplicação web que lista os estados e as capitais do Brasil
 
 - Acesso à internet;
 
-- nstalar o Docker 25.0.1
+- Instalar o Docker 25.0.1
 
 - Instalar o Docker Compose v2.17.2
 

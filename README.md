@@ -2,11 +2,14 @@ Este projeto envolve a criação de um ambiente de contêineres onde irá listar
 
 UBUNTU: 22.04.3 LTS
 
-DOCKER COMPOSE: v2.17.2
+DOCKER COMPOSE: v2.17.2 
 
-NODE: v21.6.1
+NODE: v21.6.1 - port 3000:3000
 
-PHP: 7.4-apache
+PHP: 7.4-apache - port 8080:80
+
+MYSQL: 5.7 - port 3306:3306
+
 
  
 

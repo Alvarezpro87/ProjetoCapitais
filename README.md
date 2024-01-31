@@ -1,4 +1,4 @@
-# Projeto Capitais do Brasil 🇧🇷
+# Projeto Capitais do Brasil 
 
 ## DESCRIÇÃO
 
@@ -21,8 +21,8 @@ Este projeto é uma aplicação web que lista os estados e as capitais do Brasil
 
 1. Crie um arquivo .env na raiz do projeto com as seguintes variáveis de ambiente:
 
-     MYSQL_ROOT_PASSWORD=escolha_uma_senha
-     MYSQL_DATABASE=capitaisDoBrasil
+     - MYSQL_ROOT_PASSWORD=escolha_uma_senha
+     - MYSQL_DATABASE=capitaisDoBrasil
 
 ## INICIALIZAÇÃO DO PROJETO
 

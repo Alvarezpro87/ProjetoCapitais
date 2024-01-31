@@ -1,6 +1,5 @@
 # Projeto Capitais do Brasil 🇧🇷
 
-
 ## DESCRIÇÃO
 
 Este projeto é uma aplicação web que lista os estados e as capitais do Brasil. Utiliza um ambiente de contêineres com Ubuntu, Docker, Docker Compose, Node.js, PHP e MySQL.

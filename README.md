@@ -12,7 +12,7 @@ Este projeto é uma aplicação web que lista os estados e as capitais do Brasil
 
 - Acesso à internet;
 
-- nstalar o Docker 25.0.1
+- Instalar o Docker 25.0.1
 
 - Instalar o Docker Compose v2.17.2
 
@@ -22,7 +22,7 @@ Este projeto é uma aplicação web que lista os estados e as capitais do Brasil
 1. Crie um arquivo .env na raiz do projeto com as seguintes variáveis de ambiente:
 
      - MYSQL_ROOT_PASSWORD=escolha_uma_senha
-     - MYSQL_DATABASE=capitaisDoBrasil
+     - MYSQL_DATABASE=escolha_um_nome
 
 ## INICIALIZAÇÃO DO PROJETO
 
